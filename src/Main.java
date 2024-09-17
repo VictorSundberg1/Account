@@ -17,7 +17,6 @@ public class Main {
             switch (menuChoice) {
                 case 1:
                     System.out.println("Amount of withdraw: ");
-
                     a2.withdrawBalance(sc.nextDouble());
                     break;
                 case 2:
