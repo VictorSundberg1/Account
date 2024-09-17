@@ -11,7 +11,7 @@ public class Main {
 
         boolean running = true;
 
-        while (running == true) {
+        while (running) {
             printMenu();
             int menuChoice = sc.nextInt();
             switch (menuChoice) {
